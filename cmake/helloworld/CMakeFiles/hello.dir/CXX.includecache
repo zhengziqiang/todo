@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zzq/todo/cmake/helloworld/double.cpp
+iostream
+-
+
+/home/zzq/todo/cmake/helloworld/helloworld.cpp
+iostream
+-
+double.cpp
+/home/zzq/todo/cmake/helloworld/double.cpp
+
